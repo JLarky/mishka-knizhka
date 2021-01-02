@@ -4,9 +4,10 @@ import Podcast from "podcast";
 const feed = new Podcast({
   title: "title",
   description: "description",
-  feed_url: "http://example.com/rss.xml",
-  site_url: "http://example.com",
-  image_url: "http://example.com/icon.png",
+  feed_url: "https://jlarky.github.io/mishka-knizhka/feed.rss",
+  site_url: "https://jlarky.github.io/mishka-knizhka",
+  image_url:
+    "https://mishka-knizhka.ru/wp-content/uploads/2018/03/feat-audio-skazka-o-care-saltane10.jpg",
   docs: "http://example.com/rss/docs.html",
   author: "Dylan Greene",
   managingEditor: "Dylan Greene",
@@ -31,11 +32,12 @@ const feed = new Podcast({
       ],
     },
   ],
-  itunesImage: "http://link.to/image.png",
+  itunesImage:
+    "https://mishka-knizhka.ru/wp-content/uploads/2018/03/feat-audio-skazka-o-care-saltane10.jpg",
 });
 
 feed.addItem({
-  title: "item title",
+  title: "Сказка о царе Салтане",
   description: "use this for the content. It can include html.",
   url: "http://example.com/article4?this&that", // link to the item
   guid: "1123", // optional - defaults to url
