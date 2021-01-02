@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "node --experimental-modules generate.mjs > docs/feed.rss"
+  },
+  "dependencies": {
+    "podcast": "^1.3.0"
+  }
+}
